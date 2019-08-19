@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const port = 3000;
 const userRoute = require('./routes/user.route');
-
+const  cookieParser = require('cookie-parser');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
@@ -21,6 +21,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/users', userRoute);
+app.use(cookieParser());
 
 let listen = app.listen(port, () => {
     console.log('Server listening on port ' + port);
