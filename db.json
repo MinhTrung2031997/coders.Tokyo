@@ -8,7 +8,9 @@
     {
       "name": "học lập trình angular4",
       "phone": "0971197600",
-      "id": "lX3ZtsH4p"
+      "id": "lX3ZtsH4p",
+      "email": "info@gmail.com",
+      "pass": "202cb962ac59075b964b07152d234b70"
     },
     {
       "name": "học lập trình reactjs",
@@ -24,6 +26,16 @@
       "name": "16521316",
       "phone": "0971197600",
       "id": "rE3HOSIE7"
+    },
+    {
+      "name": "16521316",
+      "phone": "0971197600",
+      "id": "QTyYKiUz5"
+    },
+    {
+      "name": "học lập trình angular4",
+      "phone": "0971197600",
+      "id": "uGtE-5LUy"
     }
   ]
 }
